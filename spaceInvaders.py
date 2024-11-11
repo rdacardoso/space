@@ -15,7 +15,7 @@ from Vector2D import *
 limiteEsq = 20
 limiteDir = 480
 
-
+####
 def load_texture(file):
     im = Image.open(file)
     ix, iy, im_data = im.size[0], im.size[1], im.tobytes("raw", "RGBA", 0, -1)
